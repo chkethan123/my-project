@@ -1,19 +1,32 @@
-.main{
-    background-color:#222222;
-    height:100vh;
-    background-size:cover;
-    padding:14px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.login{
-    background:radial-gradient(#ffffff,#222222);
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    padding: 20px; 
-    width: 280px;  
-    height:280px;
-    text-align:center;
-    align-items: center;
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    background : linear-gradient(to bottom, #11b3a5, #6d19cc);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004999;
 }
 
